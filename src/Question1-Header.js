@@ -1,4 +1,5 @@
-/* DELETE THIS LINE AND WRITE THE ANSWER TO QUESTION 1 HERE */
+import React from "react";
+import 
 
 /*
  * ============= Question 1 =============
@@ -9,9 +10,11 @@
  */
 
 function Header() {
-  return (
-    <h1>Open the QuestionX files inside the src folder and complete them</h1>
-  );
+  const tittle = () => {
+    return (
+      <h1>Open the QuestionX files inside the src folder and complete them</h1>
+    );
+  };
 }
 
 export default Header;
